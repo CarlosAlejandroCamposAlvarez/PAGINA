@@ -1,0 +1,80 @@
+#T1 {
+    color: rgb(0, 13, 255);
+}
+#T2 {
+    color: green;
+}
+
+#T3 {
+    color: rgba(255, 0, 0, 0.599);
+}
+
+#T4 {
+color: blue;
+}
+
+#T5 {
+    color: aqua;
+}
+
+.pais1{
+    display: flex; /* Define o container como um flex container */
+   margin-bottom: 20px; /* Espaço de 20 pixels entre cada assunto */
+}
+  
+  .P1{
+    flex: 1; /* Ocupa todo o espaço disponível no flex container */
+    margin-right: 5px; /* Espaçamento opcional entre o texto e as imagens */
+  }
+  .imagens1 {
+    flex: 1; /* Ocupa todo o espaço disponível no flex container */
+    display: flex; /* Define este container como um flex container */
+    justify-content: flex-end; /* Alinha os itens (imagens) no final do container flex */
+    margin-right: 10px;
+  }
+  .imagens1 img{
+    margin-right: 10px; /* Espaço horizontal entre as imagens */
+    margin-bottom: 10px; /* Espaço vertical entre as imagens */
+  }
+  
+.pais2{
+        display: flex; 
+       margin-bottom: 20px; 
+    }
+      
+      .P2{
+        flex: 1; 
+        margin-right: 5px; 
+      }
+      
+.pais3{
+    display: flex; 
+   margin-bottom: 20px; 
+}
+  
+  .P3{
+    flex: 1; 
+    margin-right: 5px; 
+  }
+
+  .pais4{
+    display: flex; 
+   margin-bottom: 20px; 
+}
+  
+  .P4{
+    flex: 1; 
+    margin-right: 5px; 
+  }
+
+  .pais5{
+    display: flex; 
+   margin-bottom: 20px; 
+}
+  
+  .P5{
+    flex: 1; 
+    margin-right: 5px; 
+  }
+
+
